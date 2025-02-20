@@ -63,8 +63,12 @@ struct ContentView: View {
             Button("Predict") {
                 currentPrediction = choicesArray.randomElement() ?? "No prediction 😭"
             }
-            .buttonStyle(.bordered)
+            .padding()
+            .frame(width: 200, height: 50)
+            .buttonStyle(.borderedProminent)
             .tint(.indigo)
+            .controlSize(.extraLarge)
+            
             Spacer()
         }
             Spacer()
