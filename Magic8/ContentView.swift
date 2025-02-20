@@ -65,7 +65,9 @@ struct ContentView: View {
             }
             .buttonStyle(.bordered)
             .tint(.indigo)
+            Spacer()
         }
+            Spacer()
     }
 
 }
